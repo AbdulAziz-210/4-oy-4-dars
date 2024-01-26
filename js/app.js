@@ -191,4 +191,117 @@
 // console.log(maxNumber);
 
 
-// // 12-masala
+// 2-rasm
+
+// // 1-masala
+
+
+// // Musbat va manfiy sonlardan iborat array yaratish
+// let numbers = [3, 9, 19, -8, -7, -5];
+
+// // Yig'indini hisoblash
+// let sum = 0;
+
+// // Array ichidagi musbat va manfiy sonlarni yig'indisini topish
+// for (let i = 0; i < numbers.length; i++) {
+//   sum += numbers[i];
+// }
+
+// // Natijani konsolga chiqarish
+// console.log("Array yig'indisi:", sum);
+
+
+// // // 2-masala
+
+
+// // Foydalanuvchidan dollar miqdorini so'raymiz
+// let dollarAmount = parseFloat(prompt("Dollar miqdorini kiriting:"));
+
+// // Agar foydalanuvchi to'g'ri son kiritmasa yoki bosh qo'ygan bo'lsa
+// if (isNaN(dollarAmount) || dollarAmount <= 0) {
+//   alert("Noto'g'ri qiymat kiritildi. Iltimos, to'g'ri son kiriting.");
+// } else {
+//   // Dastur orqali hisoblash (masalan, 1 dollar = 10500 so'm)
+//   const exchangeRate = 13000;
+//   let sumAmount = dollarAmount * exchangeRate;
+
+//   // Natijani alert orqali chiqarish
+//   alert(`${dollarAmount} dollar ${sumAmount} so'mga teng.`);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// calculator 
+
+// // Foydalanuvchidan ikki son va amalni so'raymiz
+// let num1 = parseFloat(prompt("Birinchi sonni kiriting:"));
+// let num2 = parseFloat(prompt("Ikkinchi sonni kiriting:"));
+
+// // Agar foydalanuvchi to'g'ri son kiritmagan yoki bosh qo'ygan bo'lsa
+// if (isNaN(num1) || isNaN(num2)) {
+//   alert("Noto'g'ri qiymat kiritildi. Iltimos, to'g'ri sonlarni kiriting.");
+// } else {
+//   // Foydalanuvchidan amalni so'raymiz
+//   let operation = prompt("Amalni tanlang (+, -, *, /):");
+
+//   // For tsikli bilan amalni tanlash va bajarish
+//   let result;
+//   for (let i = 0; i < 1; i++) {
+//     if (operation === '+') {
+//       result = num1 + num2;
+//     } else if (operation === '-') {
+//       result = num1 - num2;
+//     } else if (operation === '*') {
+//       result = num1 * num2;
+//     } else if (operation === '/') {
+//       // 0 ga bo'lib bo'lishni tekshirish
+//       if (num2 !== 0) {
+//         result = num1 / num2;
+//       } else {
+//         alert("Nolga bo'lish mumkin emas.");
+//         i = -1; // Agar foydalanuvchi noto'g'ri amal kiritganda tsiklni qaytarish
+//       }
+//     } else {
+//       alert("Noto'g'ri amal tanlang. Qaytadan kiriting.");
+//       i = -1; // Agar foydalanuvchi noto'g'ri amal kiritganda tsiklni qaytarish
+//     }
+//   }
+
+//   // Natijani konsolga chiqarish
+//   if (result !== undefined) {
+//     alert(`Natija: ${result}`);
+//   }
+// }
+
+
+
+
