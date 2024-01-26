@@ -151,10 +151,44 @@
 // let numbers = [3, -7, 12, -5, 8, -10, 15];
 
 // // Array ichidagi manfiy sonlarni teskarisiga o'zgartirish
-// let modifiedArray = numbers.map(num => (num < 0 ? -num : num));
+// let modifiedArray = numbers.map(number => (number < 0 ? -number : number));
 
 // // Natijani konsolga chiqarish
 // console.log("Boshlang'ich array:", numbers);
 // console.log("O'zgartirilgan array:", modifiedArray);
 
+// // 10-masala
 
+// let number1 = [7, 8, 9, 10]
+// let number2 = [4, 5, 6, 7, 8, 9, 10]
+
+// for(let i = 0; i < number1.length; i++){
+//     for(let j= 0; j < number2.length; j++){
+//         if(number1[i] == number2[j]){
+//             console.log(number1[i]);
+//         }
+//     }
+// }
+
+
+// // 11-masala
+
+// let numbers = [15, 16, 17, 50, 99];
+
+
+// let minNumber = numbers[0];
+// let maxNumber = numbers[0];
+
+// for(let i = 0; i < numbers.length; i++) {
+//     if(numbers[i] < minNumber){
+//         minNumber = numbers[i];
+//     } else if(numbers[i] > maxNumber) {
+//         maxNumber = numbers[i];
+//     }
+// }
+
+// console.log(minNumber);
+// console.log(maxNumber);
+
+
+// // 12-masala
